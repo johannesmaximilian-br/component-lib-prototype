@@ -1,0 +1,21 @@
+.default{
+    color: var(--color-primary, black);
+    padding: var(--button-padding-default, 7px 15px);
+    border: 1px solid var(--color-primary, black);
+    border-radius: var(--button-radius, 3px);
+    background: none;
+    cursor: pointer;
+}
+.text {
+    color: var(--color-primary, black);
+    border: none;
+    padding: none;
+}
+.navigation {
+    background: var(--color-secondary, blue);
+}
+.cta {
+    padding: var(--button-padding-cta, 15px 30px);
+    font-size: var(--button-text-large, 14px);
+    font-weight: 600;
+}

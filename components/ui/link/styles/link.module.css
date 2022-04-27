@@ -1,0 +1,20 @@
+.text {
+  color: var(--color-primary, black);
+  text-decoration: underline;
+}
+.navigation {
+  color: var(--color-secondary, blue);
+  text-decoration: none;
+}
+.cta {
+  font-weight: 600;
+  font-size: var(--button-text-large, 14px);
+  text-transform: uppercase;
+}
+.button {
+  color: var(--color-primary, black);
+  padding: var(--button-padding-default, 7px 15px);
+  border: 1px solid var(--color-primary, black);
+  border-radius: var(--button-radius, 3px);
+  text-decoration: none;
+}

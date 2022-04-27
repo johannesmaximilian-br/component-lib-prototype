@@ -1,0 +1,24 @@
+---
+description: "A Headlines component."
+labels: ["label1", "label2", "label3"]
+---
+
+import { Headlines, HeadlineType } from "./headlines";
+
+## React Component for rendering text
+
+A basic div that renders some text
+
+### Component usage
+
+```js
+<Headlines text="hello from Headlines" headline={HeadlineType.h1} />
+```
+
+### Using props to customize the text
+
+Modify the text to see it change live:
+
+```js live
+<Headlines headline={HeadlineType.H1} text="hello from Headlines" />
+```
